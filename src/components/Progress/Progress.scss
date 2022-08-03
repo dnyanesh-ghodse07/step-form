@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70%;
+  margin: auto;
+  .progress-bar {
+    height: 1px;
+    width: 100%;
+    background: lightgrey;
+    position: absolute;
+    .fill {
+      height: 1px;
+      // width: 20%;
+      background-color: rgb(84, 28, 214);
+    }
+  }
+  .steps {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    .step {
+      font-size: 10px;
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      z-index: 1;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      // margin-left: 50px;
+      border-radius: 25px;
+      border: 0.5px solid lightgray;
+      background: #fff;
+    }
+    .step-fill {
+      color: #fff;
+      background-color: rgb(84, 28, 214);
+      border: 0.5px solid rgb(84, 28, 214);
+    }
+  }
+}

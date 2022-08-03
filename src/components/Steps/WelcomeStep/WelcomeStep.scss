@@ -1,0 +1,51 @@
+.form-container{
+    width: 450px;
+    .text{
+        margin-top: 50px;
+        text-align: center;
+        h3{
+            font-size: 22px;
+            font-weight: 600;
+        }
+        p{
+            margin-top: 5px;
+            font-size: 12px;
+            color: gray;
+        }
+    }
+    .form{
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+        .form-item{
+            margin-top: 15px;
+            p{
+                font-size: 12px;
+            }
+            input{
+              width: 100%;
+              padding: 10px;
+              outline: none;
+              border: .5px solid lightgray;
+                border-radius: 5px;
+                margin-top: 3px;
+                &::placeholder{
+                    font-size: 12px;
+                    color: lightgray;
+                }
+            }
+        }
+        .button{
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(117, 22, 206);
+            color: white;
+            font-size: 12px;
+            outline: none;
+            border: none;
+        }
+    }
+}
